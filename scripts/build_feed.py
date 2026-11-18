@@ -25,6 +25,9 @@ EP_DIR = os.path.join(ROOT, "episodes")
 DB = os.path.join(ROOT, "episodes.json")
 FEED = os.path.join(ROOT, "feed.xml")
 TZ = ZoneInfo("Europe/Stockholm")
+DAYS = ["måndag", "tisdag", "onsdag", "torsdag", "fredag", "lördag", "söndag"]
+MONTHS = ["januari", "februari", "mars", "april", "maj", "juni", "juli",
+          "augusti", "september", "oktober", "november", "december"]
 
 
 def duration(path):
@@ -59,7 +62,7 @@ def add(mp3, date, headlines_file):
     eps.append({
         "date": date,
         "file": f"episodes/{name}",
-        "title": f"Morning news – {d.strftime('%A %-d %B %Y')}",
+        "title": f"Morgonnyheter – {DAYS[d.weekday()]} {d.day} {MONTHS[d.month - 1]} {d.year}",
         "headlines": headlines,
         "duration": duration(dst),
         "size": os.path.getsize(dst),
@@ -101,15 +104,15 @@ def build(eps):
     feed = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Morning News for Niklas</title>
+    <title>Morgonnyheter för Niklas</title>
     <link>{BASE_URL}/</link>
     <atom:link href="{BASE_URL}/feed.xml" rel="self" type="application/rss+xml"/>
-    <description>A short weekday morning briefing: top news from Sweden and the world, plus tech.</description>
-    <language>en</language>
+    <description>Kort morgonsändning varje vardag: de viktigaste nyheterna från Sverige och världen, plus tech.</description>
+    <language>sv</language>
     <lastBuildDate>{now}</lastBuildDate>
     <itunes:author>Claude</itunes:author>
     <itunes:image href="{BASE_URL}/cover.png"/>
-    <image><url>{BASE_URL}/cover.png</url><title>Morning News for Niklas</title><link>{BASE_URL}/</link></image>
+    <image><url>{BASE_URL}/cover.png</url><title>Morgonnyheter för Niklas</title><link>{BASE_URL}/</link></image>
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>

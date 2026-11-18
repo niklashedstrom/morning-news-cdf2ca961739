@@ -1,0 +1,96 @@
+name: Synthesize episode
+
+# The morning-news task pushes inbox/YYYY-MM-DD.txt (script, one paragraph per line)
+# and inbox/YYYY-MM-DD.headlines.txt. This job turns the script into Swedish speech,
+# adds the episode to the feed and commits the result.
+on:
+  push:
+    branches: [main]
+    paths: ["inbox/*.txt"]
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Episode date (YYYY-MM-DD) to (re)build from inbox/. Empty = test voice only."
+        required: false
+      voice:
+        description: "edge-tts voice"
+        required: false
+        default: sv-SE-SofieNeural
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: tts
+  cancel-in-progress: false
+
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      VOICE: ${{ inputs.voice || 'sv-SE-SofieNeural' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: |
+          pip install -q edge-tts
+          ffmpeg -version | head -1
+
+      - name: Voice test (manual run without date)
+        if: github.event_name == 'workflow_dispatch' && inputs.date == ''
+        run: |
+          printf '%s\n' \
+            "God morgon Niklas, det är onsdag den artonde november. Här är dagens nyheter." \
+            "Riksdagens talman har satt en tidsgräns före jul för att Sverige ska få en ny regering. Samtidigt fortsätter samtalen mellan partierna." \
+            "Och inom tech: Nvidia redovisade ett rekordkvartal, med intäkter på över hundra miljarder dollar." > voice-test.txt
+          python scripts/tts_sv.py voice-test.txt voice-test.mp3 "$VOICE"
+
+      - name: Upload voice test
+        if: github.event_name == 'workflow_dispatch' && inputs.date == ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: voice-test
+          path: voice-test.mp3
+
+      - name: Build episodes
+        if: github.event_name == 'push' || inputs.date != ''
+        run: |
+          set -euo pipefail
+          if [ -n "${{ inputs.date }}" ]; then
+            dates="${{ inputs.date }}"
+          else
+            dates=$(ls inbox/*.txt 2>/dev/null | grep -v '\.headlines\.txt$' | xargs -rn1 basename | sed 's/\.txt$//' | sort)
+          fi
+          [ -n "$dates" ] || { echo "nothing in inbox/"; exit 0; }
+          mkdir -p transcripts
+          for d in $dates; do
+            echo "::group::$d"
+            test -f "inbox/$d.txt"
+            hl="inbox/$d.headlines.txt"; [ -f "$hl" ] || : > "$hl"
+            python scripts/tts_sv.py "inbox/$d.txt" "/tmp/morning-news-$d.mp3" "$VOICE"
+            python scripts/build_feed.py add "/tmp/morning-news-$d.mp3" "$d" "$hl"
+            git mv -f "inbox/$d.txt" "transcripts/$d.txt" 2>/dev/null || mv -f "inbox/$d.txt" "transcripts/$d.txt"
+            git rm -q --ignore-unmatch "$hl"; rm -f "$hl"
+            echo "::endgroup::"
+          done
+          git add -A
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -m "Episode $(echo $dates | tr ' ' ',')"
+          for i in 1 2 3; do
+            git push origin HEAD:main && break
+            git pull --rebase origin main
+          done
+
+      - name: Trigger Pages build
+        if: github.event_name == 'push' || inputs.date != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        # Pushes made with GITHUB_TOKEN don't always start a Pages build on their own.
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" --silent || echo "::warning::Pages build request failed"
