@@ -1,45 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Morning News for Niklas</title>
+    <title>Morgonnyheter för Niklas</title>
     <link>https://niklashedstrom.github.io/morning-news-cdf2ca961739/</link>
     <atom:link href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/feed.xml" rel="self" type="application/rss+xml"/>
-    <description>A short weekday morning briefing: top news from Sweden and the world, plus tech.</description>
-    <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 08:46:44 +0000</lastBuildDate>
+    <description>Kort morgonsändning varje vardag: de viktigaste nyheterna från Sverige och världen, plus tech.</description>
+    <language>sv</language>
+    <lastBuildDate>Wed, 18 Nov 2026 11:49:06 +0000</lastBuildDate>
     <itunes:author>Claude</itunes:author>
     <itunes:image href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png"/>
-    <image><url>https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png</url><title>Morning News for Niklas</title><link>https://niklashedstrom.github.io/morning-news-cdf2ca961739/</link></image>
+    <image><url>https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png</url><title>Morgonnyheter för Niklas</title><link>https://niklashedstrom.github.io/morning-news-cdf2ca961739/</link></image>
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
-      <title>Morning news – Wednesday 18 November 2026</title>
-      <description>• Iran and the US trade strikes in the Gulf; tankers hit mines in Hormuz
-• Trump, Xi and Putin to meet Thursday; Europeans join Ukraine talks ahead of Berlin
-• Speaker Norlén sets pre-Christmas deadline for Sweden's new government
-• Church of Sweden postpones decision on priests' right to refuse same-sex weddings
-• COP31 draft calls for accelerated fossil fuel phase-out
-• Nvidia posts $115.8B quarter; board rules out Jensen Huang's return
-• Anthropic set for Nasdaq debut Thursday in one of the largest IPOs ever
-• Wave of US tech outages hits Apple, NSA network, banks and airlines
-• Klarna narrows Q3 loss to $65M as revenue grows 12%
-• Voyager 1 reaches one light-day from Earth</description>
-      <content:encoded><![CDATA[<ul><li>Iran and the US trade strikes in the Gulf; tankers hit mines in Hormuz</li><li>Trump, Xi and Putin to meet Thursday; Europeans join Ukraine talks ahead of Berlin</li><li>Speaker Norlén sets pre-Christmas deadline for Sweden's new government</li><li>Church of Sweden postpones decision on priests' right to refuse same-sex weddings</li><li>COP31 draft calls for accelerated fossil fuel phase-out</li><li>Nvidia posts $115.8B quarter; board rules out Jensen Huang's return</li><li>Anthropic set for Nasdaq debut Thursday in one of the largest IPOs ever</li><li>Wave of US tech outages hits Apple, NSA network, banks and airlines</li><li>Klarna narrows Q3 loss to $65M as revenue grows 12%</li><li>Voyager 1 reaches one light-day from Earth</li></ul>]]></content:encoded>
-      <itunes:summary>• Iran and the US trade strikes in the Gulf; tankers hit mines in Hormuz
-• Trump, Xi and Putin to meet Thursday; Europeans join Ukraine talks ahead of Berlin
-• Speaker Norlén sets pre-Christmas deadline for Sweden's new government
-• Church of Sweden postpones decision on priests' right to refuse same-sex weddings
-• COP31 draft calls for accelerated fossil fuel phase-out
-• Nvidia posts $115.8B quarter; board rules out Jensen Huang's return
-• Anthropic set for Nasdaq debut Thursday in one of the largest IPOs ever
-• Wave of US tech outages hits Apple, NSA network, banks and airlines
-• Klarna narrows Q3 loss to $65M as revenue grows 12%
-• Voyager 1 reaches one light-day from Earth</itunes:summary>
-      <enclosure url="https://niklashedstrom.github.io/morning-news-cdf2ca961739/episodes/morning-news-2026-11-18.mp3" length="4918509" type="audio/mpeg"/>
-      <guid isPermaLink="false">morning-news-2026-11-18-4918509</guid>
+      <title>Morgonnyheter – onsdag 18 november 2026</title>
+      <description>• Moderaterna går om Socialdemokraterna i Novus – regeringsfrågan fortsatt låst
+• Talmannen: ny regering eller extraval före jul
+• USA anfaller Qeshm efter iranska drönare mot Bahrain – minor i Hormuzsundet
+• Fredsstyrelsen varnar: vapenvilan i Gaza kan bryta samman
+• Europa ansluter till nya Ukrainaförhandlingar
+• Trump i Asien inför möten med Xi och Putin
+• Rubio: inga bevis för samband mellan USA:s tekniska haverier
+• COP31: utkast om fossil utfasning möter motstånd
+• Nvidia slår förväntningarna i första rapporten efter Huang
+• Kalifornien stämmer OpenAI efter Hugging Face-intrånget
+• Klarna växer men går fortfarande med förlust
+• SpaceX leasar Nvidia-chip för omkring 40 miljarder dollar</description>
+      <content:encoded><![CDATA[<ul><li>Moderaterna går om Socialdemokraterna i Novus – regeringsfrågan fortsatt låst</li><li>Talmannen: ny regering eller extraval före jul</li><li>USA anfaller Qeshm efter iranska drönare mot Bahrain – minor i Hormuzsundet</li><li>Fredsstyrelsen varnar: vapenvilan i Gaza kan bryta samman</li><li>Europa ansluter till nya Ukrainaförhandlingar</li><li>Trump i Asien inför möten med Xi och Putin</li><li>Rubio: inga bevis för samband mellan USA:s tekniska haverier</li><li>COP31: utkast om fossil utfasning möter motstånd</li><li>Nvidia slår förväntningarna i första rapporten efter Huang</li><li>Kalifornien stämmer OpenAI efter Hugging Face-intrånget</li><li>Klarna växer men går fortfarande med förlust</li><li>SpaceX leasar Nvidia-chip för omkring 40 miljarder dollar</li></ul>]]></content:encoded>
+      <itunes:summary>• Moderaterna går om Socialdemokraterna i Novus – regeringsfrågan fortsatt låst
+• Talmannen: ny regering eller extraval före jul
+• USA anfaller Qeshm efter iranska drönare mot Bahrain – minor i Hormuzsundet
+• Fredsstyrelsen varnar: vapenvilan i Gaza kan bryta samman
+• Europa ansluter till nya Ukrainaförhandlingar
+• Trump i Asien inför möten med Xi och Putin
+• Rubio: inga bevis för samband mellan USA:s tekniska haverier
+• COP31: utkast om fossil utfasning möter motstånd
+• Nvidia slår förväntningarna i första rapporten efter Huang
+• Kalifornien stämmer OpenAI efter Hugging Face-intrånget
+• Klarna växer men går fortfarande med förlust
+• SpaceX leasar Nvidia-chip för omkring 40 miljarder dollar</itunes:summary>
+      <enclosure url="https://niklashedstrom.github.io/morning-news-cdf2ca961739/episodes/morning-news-2026-11-18.mp3" length="5768972" type="audio/mpeg"/>
+      <guid isPermaLink="false">morning-news-2026-11-18-5768972</guid>
       <pubDate>Wed, 18 Nov 2026 07:00:00 +0100</pubDate>
-      <itunes:duration>00:06:50</itunes:duration>
+      <itunes:duration>00:08:01</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

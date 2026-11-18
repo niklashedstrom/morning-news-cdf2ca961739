@@ -2,22 +2,24 @@
   {
     "date": "2026-11-18",
     "file": "episodes/morning-news-2026-11-18.mp3",
-    "title": "Morning news – Wednesday 18 November 2026",
+    "title": "Morgonnyheter – onsdag 18 november 2026",
     "headlines": [
-      "Iran and the US trade strikes in the Gulf; tankers hit mines in Hormuz",
-      "Trump, Xi and Putin to meet Thursday; Europeans join Ukraine talks ahead of Berlin",
-      "Speaker Norlén sets pre-Christmas deadline for Sweden's new government",
-      "Church of Sweden postpones decision on priests' right to refuse same-sex weddings",
-      "COP31 draft calls for accelerated fossil fuel phase-out",
-      "Nvidia posts $115.8B quarter; board rules out Jensen Huang's return",
-      "Anthropic set for Nasdaq debut Thursday in one of the largest IPOs ever",
-      "Wave of US tech outages hits Apple, NSA network, banks and airlines",
-      "Klarna narrows Q3 loss to $65M as revenue grows 12%",
-      "Voyager 1 reaches one light-day from Earth"
+      "Moderaterna går om Socialdemokraterna i Novus – regeringsfrågan fortsatt låst",
+      "Talmannen: ny regering eller extraval före jul",
+      "USA anfaller Qeshm efter iranska drönare mot Bahrain – minor i Hormuzsundet",
+      "Fredsstyrelsen varnar: vapenvilan i Gaza kan bryta samman",
+      "Europa ansluter till nya Ukrainaförhandlingar",
+      "Trump i Asien inför möten med Xi och Putin",
+      "Rubio: inga bevis för samband mellan USA:s tekniska haverier",
+      "COP31: utkast om fossil utfasning möter motstånd",
+      "Nvidia slår förväntningarna i första rapporten efter Huang",
+      "Kalifornien stämmer OpenAI efter Hugging Face-intrånget",
+      "Klarna växer men går fortfarande med förlust",
+      "SpaceX leasar Nvidia-chip för omkring 40 miljarder dollar"
     ],
-    "duration": 410,
-    "size": 4918509,
+    "duration": 481,
+    "size": 5768972,
     "pub": "2026-11-18T07:00:00+01:00",
-    "guid": "morning-news-2026-11-18-4918509"
+    "guid": "morning-news-2026-11-18-5768972"
   }
 ]
