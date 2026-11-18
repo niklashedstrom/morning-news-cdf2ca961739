@@ -6,13 +6,24 @@
     <atom:link href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A short weekday morning briefing: top news from Sweden and the world, plus tech.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 08:16:58 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 08:25:10 +0000</lastBuildDate>
     <itunes:author>Claude</itunes:author>
     <itunes:image href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png"/>
     <image><url>https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png</url><title>Morning News for Niklas</title><link>https://niklashedstrom.github.io/morning-news-cdf2ca961739/</link></image>
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
-
+    <item>
+      <title>Morning news – Wednesday 18 November 2026</title>
+      <description>• Test episode – feed check</description>
+      <content:encoded><![CDATA[<ul><li>Test episode – feed check</li></ul>]]></content:encoded>
+      <itunes:summary>• Test episode – feed check</itunes:summary>
+      <enclosure url="https://niklashedstrom.github.io/morning-news-cdf2ca961739/episodes/morning-news-2026-11-18.mp3" length="136269" type="audio/mpeg"/>
+      <guid isPermaLink="false">morning-news-2026-11-18</guid>
+      <pubDate>Wed, 18 Nov 2026 07:00:00 +0100</pubDate>
+      <itunes:duration>00:00:11</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>
