@@ -6,7 +6,7 @@
     <atom:link href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A short weekday morning briefing: top news from Sweden and the world, plus tech.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 08:25:10 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 08:38:18 +0000</lastBuildDate>
     <itunes:author>Claude</itunes:author>
     <itunes:image href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png"/>
     <image><url>https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png</url><title>Morning News for Niklas</title><link>https://niklashedstrom.github.io/morning-news-cdf2ca961739/</link></image>
@@ -15,13 +15,31 @@
     <itunes:block>Yes</itunes:block>
     <item>
       <title>Morning news – Wednesday 18 November 2026</title>
-      <description>• Test episode – feed check</description>
-      <content:encoded><![CDATA[<ul><li>Test episode – feed check</li></ul>]]></content:encoded>
-      <itunes:summary>• Test episode – feed check</itunes:summary>
-      <enclosure url="https://niklashedstrom.github.io/morning-news-cdf2ca961739/episodes/morning-news-2026-11-18.mp3" length="136269" type="audio/mpeg"/>
+      <description>• Iran and the US trade strikes in the Gulf; tankers hit mines in Hormuz
+• Trump, Xi and Putin to meet Thursday; Europeans join Ukraine talks ahead of Berlin
+• Speaker Norlén sets pre-Christmas deadline for Sweden's new government
+• Church of Sweden postpones decision on priests' right to refuse same-sex weddings
+• COP31 draft calls for accelerated fossil fuel phase-out
+• Nvidia posts $115.8B quarter; board rules out Jensen Huang's return
+• Anthropic set for Nasdaq debut Thursday in one of the largest IPOs ever
+• Wave of US tech outages hits Apple, NSA network, banks and airlines
+• Klarna narrows Q3 loss to $65M as revenue grows 12%
+• Voyager 1 reaches one light-day from Earth</description>
+      <content:encoded><![CDATA[<ul><li>Iran and the US trade strikes in the Gulf; tankers hit mines in Hormuz</li><li>Trump, Xi and Putin to meet Thursday; Europeans join Ukraine talks ahead of Berlin</li><li>Speaker Norlén sets pre-Christmas deadline for Sweden's new government</li><li>Church of Sweden postpones decision on priests' right to refuse same-sex weddings</li><li>COP31 draft calls for accelerated fossil fuel phase-out</li><li>Nvidia posts $115.8B quarter; board rules out Jensen Huang's return</li><li>Anthropic set for Nasdaq debut Thursday in one of the largest IPOs ever</li><li>Wave of US tech outages hits Apple, NSA network, banks and airlines</li><li>Klarna narrows Q3 loss to $65M as revenue grows 12%</li><li>Voyager 1 reaches one light-day from Earth</li></ul>]]></content:encoded>
+      <itunes:summary>• Iran and the US trade strikes in the Gulf; tankers hit mines in Hormuz
+• Trump, Xi and Putin to meet Thursday; Europeans join Ukraine talks ahead of Berlin
+• Speaker Norlén sets pre-Christmas deadline for Sweden's new government
+• Church of Sweden postpones decision on priests' right to refuse same-sex weddings
+• COP31 draft calls for accelerated fossil fuel phase-out
+• Nvidia posts $115.8B quarter; board rules out Jensen Huang's return
+• Anthropic set for Nasdaq debut Thursday in one of the largest IPOs ever
+• Wave of US tech outages hits Apple, NSA network, banks and airlines
+• Klarna narrows Q3 loss to $65M as revenue grows 12%
+• Voyager 1 reaches one light-day from Earth</itunes:summary>
+      <enclosure url="https://niklashedstrom.github.io/morning-news-cdf2ca961739/episodes/morning-news-2026-11-18.mp3" length="4918509" type="audio/mpeg"/>
       <guid isPermaLink="false">morning-news-2026-11-18</guid>
       <pubDate>Wed, 18 Nov 2026 07:00:00 +0100</pubDate>
-      <itunes:duration>00:00:11</itunes:duration>
+      <itunes:duration>00:06:50</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
