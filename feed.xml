@@ -6,7 +6,7 @@
     <atom:link href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Kort morgonsändning varje vardag: de viktigaste nyheterna från Sverige och världen, plus tech.</description>
     <language>sv</language>
-    <lastBuildDate>Wed, 18 Nov 2026 11:49:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 11:56:07 +0000</lastBuildDate>
     <itunes:author>Claude</itunes:author>
     <itunes:image href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png"/>
     <image><url>https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png</url><title>Morgonnyheter för Niklas</title><link>https://niklashedstrom.github.io/morning-news-cdf2ca961739/</link></image>
@@ -40,8 +40,8 @@
 • Kalifornien stämmer OpenAI efter Hugging Face-intrånget
 • Klarna växer men går fortfarande med förlust
 • SpaceX leasar Nvidia-chip för omkring 40 miljarder dollar</itunes:summary>
-      <enclosure url="https://niklashedstrom.github.io/morning-news-cdf2ca961739/episodes/morning-news-2026-11-18.mp3" length="5768972" type="audio/mpeg"/>
-      <guid isPermaLink="false">morning-news-2026-11-18-5768972</guid>
+      <enclosure url="https://niklashedstrom.github.io/morning-news-cdf2ca961739/episodes/morning-news-2026-11-18-05b6250e.mp3" length="5768972" type="audio/mpeg"/>
+      <guid isPermaLink="false">morning-news-2026-11-18-05b6250e</guid>
       <pubDate>Wed, 18 Nov 2026 07:00:00 +0100</pubDate>
       <itunes:duration>00:08:01</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>

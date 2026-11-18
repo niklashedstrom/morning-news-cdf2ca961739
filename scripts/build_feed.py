@@ -8,6 +8,8 @@ headlines.txt: one headline per line. The MP3 is copied to episodes/,
 episodes.json is updated, episodes older than the newest 14 are removed
 from the working tree, and feed.xml is regenerated.
 """
+import glob
+import hashlib
 import json
 import os
 import shutil
@@ -51,7 +53,13 @@ def load():
 
 def add(mp3, date, headlines_file):
     os.makedirs(EP_DIR, exist_ok=True)
-    name = f"morning-news-{date}.mp3"
+    # Content hash in the file name: a re-published date gets a new URL, so podcast
+    # apps and the Pages CDN can never serve a cached older version of the audio.
+    with open(mp3, "rb") as f:
+        h = hashlib.sha1(f.read()).hexdigest()[:8]
+    name = f"morning-news-{date}-{h}.mp3"
+    for old in glob.glob(os.path.join(EP_DIR, f"morning-news-{date}*.mp3")):
+        os.remove(old)
     dst = os.path.join(EP_DIR, name)
     shutil.copyfile(mp3, dst)
     with open(headlines_file, encoding="utf-8") as f:
@@ -68,7 +76,7 @@ def add(mp3, date, headlines_file):
         "size": os.path.getsize(dst),
         "pub": pub.isoformat(),
         # unique per audio file, so a re-published date shows up as a new episode in apps
-        "guid": f"morning-news-{date}-{os.path.getsize(dst)}",
+        "guid": f"morning-news-{date}-{h}",
     })
     eps.sort(key=lambda e: e["date"], reverse=True)
     keep, drop = eps[:KEEP], eps[KEEP:]
