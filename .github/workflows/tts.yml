@@ -53,12 +53,13 @@ jobs:
             "Och inom tech: Nvidia redovisade ett rekordkvartal, med intäkter på över hundra miljarder dollar." > voice-test.txt
           python scripts/tts_sv.py voice-test.txt voice-test.mp3 "$VOICE"
 
-      - name: Upload voice test
+      - name: Publish voice test to branch voice-test
         if: github.event_name == 'workflow_dispatch' && inputs.date == ''
-        uses: actions/upload-artifact@v4
-        with:
-          name: voice-test
-          path: voice-test.mp3
+        run: |
+          cp voice-test.mp3 /tmp/ && git checkout -q --orphan voice-test && git rm -rfq . && git clean -fdq
+          cp /tmp/voice-test.mp3 . && git add voice-test.mp3
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "Voice test ($VOICE)"
+          git push -qf origin voice-test
 
       - name: Build episodes
         if: github.event_name == 'push' || inputs.date != ''
