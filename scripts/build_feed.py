@@ -86,8 +86,6 @@ def build(eps):
         html = "<ul>" + "".join(f"<li>{escape(h)}</li>" for h in e["headlines"]) + "</ul>"
         url = f"{BASE_URL}/{e['file']}"
         guid = e.get("guid", f"morning-news-{e['date']}")
-        if "guid" in e:
-            url += f"?v={e['size']}"
         items.append(f"""    <item>
       <title>{escape(e['title'])}</title>
       <description>{escape(text)}</description>
