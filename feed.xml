@@ -6,7 +6,7 @@
     <atom:link href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A short weekday morning briefing: top news from Sweden and the world, plus tech.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 08:38:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 08:40:28 +0000</lastBuildDate>
     <itunes:author>Claude</itunes:author>
     <itunes:image href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png"/>
     <image><url>https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png</url><title>Morning News for Niklas</title><link>https://niklashedstrom.github.io/morning-news-cdf2ca961739/</link></image>
@@ -36,8 +36,8 @@
 • Wave of US tech outages hits Apple, NSA network, banks and airlines
 • Klarna narrows Q3 loss to $65M as revenue grows 12%
 • Voyager 1 reaches one light-day from Earth</itunes:summary>
-      <enclosure url="https://niklashedstrom.github.io/morning-news-cdf2ca961739/episodes/morning-news-2026-11-18.mp3" length="4918509" type="audio/mpeg"/>
-      <guid isPermaLink="false">morning-news-2026-11-18</guid>
+      <enclosure url="https://niklashedstrom.github.io/morning-news-cdf2ca961739/episodes/morning-news-2026-11-18.mp3?v=4918509" length="4918509" type="audio/mpeg"/>
+      <guid isPermaLink="false">morning-news-2026-11-18-4918509</guid>
       <pubDate>Wed, 18 Nov 2026 07:00:00 +0100</pubDate>
       <itunes:duration>00:06:50</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>

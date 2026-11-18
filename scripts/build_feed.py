@@ -64,6 +64,8 @@ def add(mp3, date, headlines_file):
         "duration": duration(dst),
         "size": os.path.getsize(dst),
         "pub": pub.isoformat(),
+        # unique per audio file, so a re-published date shows up as a new episode in apps
+        "guid": f"morning-news-{date}-{os.path.getsize(dst)}",
     })
     eps.sort(key=lambda e: e["date"], reverse=True)
     keep, drop = eps[:KEEP], eps[KEEP:]
@@ -83,13 +85,16 @@ def build(eps):
         text = "\n".join(f"• {h}" for h in e["headlines"])
         html = "<ul>" + "".join(f"<li>{escape(h)}</li>" for h in e["headlines"]) + "</ul>"
         url = f"{BASE_URL}/{e['file']}"
+        guid = e.get("guid", f"morning-news-{e['date']}")
+        if "guid" in e:
+            url += f"?v={e['size']}"
         items.append(f"""    <item>
       <title>{escape(e['title'])}</title>
       <description>{escape(text)}</description>
       <content:encoded><![CDATA[{html}]]></content:encoded>
       <itunes:summary>{escape(text)}</itunes:summary>
       <enclosure url="{url}" length="{e['size']}" type="audio/mpeg"/>
-      <guid isPermaLink="false">morning-news-{e['date']}</guid>
+      <guid isPermaLink="false">{escape(guid)}</guid>
       <pubDate>{format_datetime(datetime.fromisoformat(e['pub']))}</pubDate>
       <itunes:duration>{hms(e['duration'])}</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
