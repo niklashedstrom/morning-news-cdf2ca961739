@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-19",
+    "file": "episodes/morning-news-2026-11-19-062528b6.mp3",
+    "title": "Morgonnyheter – torsdag 19 november 2026",
+    "headlines": [
+      "C har fullt fokus på Andersson – Kristersson lockar med strandskydd",
+      "Iran angriper amerikansk bas i Kuwait och mål i Bahrain",
+      "Trump, Xi och Putin möts i Shenzhen",
+      "Dödliga ryska angrepp mot Odessa efter attacken mot Krimbron",
+      "Anthropic prissätter rekordstor börsintroduktion",
+      "Nvidia slår förväntningarna trots vd-kris",
+      "Openai lanserar GPT-6.2 Astra och Sol",
+      "Microsoft bygger in Word, Excel och Powerpoint i Copilot",
+      "Volvo Cars stryker 2 500 jobb"
+    ],
+    "duration": 382,
+    "size": 4585868,
+    "pub": "2026-11-19T07:00:00+01:00",
+    "guid": "morning-news-2026-11-19-062528b6"
+  },
+  {
     "date": "2026-11-18",
     "file": "episodes/morning-news-2026-11-18-05b6250e.mp3",
     "title": "Morgonnyheter – onsdag 18 november 2026",
