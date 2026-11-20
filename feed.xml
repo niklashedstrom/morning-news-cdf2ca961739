@@ -6,13 +6,49 @@
     <atom:link href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Kort morgonsändning varje vardag: de viktigaste nyheterna från Sverige och världen, plus tech.</description>
     <language>sv</language>
-    <lastBuildDate>Thu, 19 Nov 2026 06:12:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 06:02:22 +0000</lastBuildDate>
     <itunes:author>Claude</itunes:author>
     <itunes:image href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png"/>
     <image><url>https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png</url><title>Morgonnyheter för Niklas</title><link>https://niklashedstrom.github.io/morning-news-cdf2ca961739/</link></image>
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
+    <item>
+      <title>Morgonnyheter – fredag 20 november 2026</title>
+      <description>• S totalpaket möter kritik från Centern
+• KU går vidare med Landerholmaffären
+• Trump, Xi och Putin enades om fredsförklaring i fyra punkter
+• Ryska angrepp skadade ambassader i Kiev
+• FN-domstol: Myanmar begick folkmord på rohingyer
+• Tidig start på influensasäsongen
+• Anthropic steg 17 procent i rekorddebut
+• Nvidia stoppar AI-chip till Kina
+• Google lanserar Gemini 4 Neon och öppnar Genie 4
+• Openai använder AI för att konstruera chip
+• Palo Alto Networks köper Applied Compute
+• Banker lägger ansvaret för AI-agenter på kunderna
+• Norwegian drabbat av dataintrång</description>
+      <content:encoded><![CDATA[<ul><li>S totalpaket möter kritik från Centern</li><li>KU går vidare med Landerholmaffären</li><li>Trump, Xi och Putin enades om fredsförklaring i fyra punkter</li><li>Ryska angrepp skadade ambassader i Kiev</li><li>FN-domstol: Myanmar begick folkmord på rohingyer</li><li>Tidig start på influensasäsongen</li><li>Anthropic steg 17 procent i rekorddebut</li><li>Nvidia stoppar AI-chip till Kina</li><li>Google lanserar Gemini 4 Neon och öppnar Genie 4</li><li>Openai använder AI för att konstruera chip</li><li>Palo Alto Networks köper Applied Compute</li><li>Banker lägger ansvaret för AI-agenter på kunderna</li><li>Norwegian drabbat av dataintrång</li></ul>]]></content:encoded>
+      <itunes:summary>• S totalpaket möter kritik från Centern
+• KU går vidare med Landerholmaffären
+• Trump, Xi och Putin enades om fredsförklaring i fyra punkter
+• Ryska angrepp skadade ambassader i Kiev
+• FN-domstol: Myanmar begick folkmord på rohingyer
+• Tidig start på influensasäsongen
+• Anthropic steg 17 procent i rekorddebut
+• Nvidia stoppar AI-chip till Kina
+• Google lanserar Gemini 4 Neon och öppnar Genie 4
+• Openai använder AI för att konstruera chip
+• Palo Alto Networks köper Applied Compute
+• Banker lägger ansvaret för AI-agenter på kunderna
+• Norwegian drabbat av dataintrång</itunes:summary>
+      <enclosure url="https://niklashedstrom.github.io/morning-news-cdf2ca961739/episodes/morning-news-2026-11-20-c1452768.mp3" length="5983532" type="audio/mpeg"/>
+      <guid isPermaLink="false">morning-news-2026-11-20-c1452768</guid>
+      <pubDate>Fri, 20 Nov 2026 07:00:00 +0100</pubDate>
+      <itunes:duration>00:08:19</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Morgonnyheter – torsdag 19 november 2026</title>
       <description>• C har fullt fokus på Andersson – Kristersson lockar med strandskydd

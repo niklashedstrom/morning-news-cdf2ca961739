@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-11-20",
+    "file": "episodes/morning-news-2026-11-20-c1452768.mp3",
+    "title": "Morgonnyheter – fredag 20 november 2026",
+    "headlines": [
+      "S totalpaket möter kritik från Centern",
+      "KU går vidare med Landerholmaffären",
+      "Trump, Xi och Putin enades om fredsförklaring i fyra punkter",
+      "Ryska angrepp skadade ambassader i Kiev",
+      "FN-domstol: Myanmar begick folkmord på rohingyer",
+      "Tidig start på influensasäsongen",
+      "Anthropic steg 17 procent i rekorddebut",
+      "Nvidia stoppar AI-chip till Kina",
+      "Google lanserar Gemini 4 Neon och öppnar Genie 4",
+      "Openai använder AI för att konstruera chip",
+      "Palo Alto Networks köper Applied Compute",
+      "Banker lägger ansvaret för AI-agenter på kunderna",
+      "Norwegian drabbat av dataintrång"
+    ],
+    "duration": 499,
+    "size": 5983532,
+    "pub": "2026-11-20T07:00:00+01:00",
+    "guid": "morning-news-2026-11-20-c1452768"
+  },
+  {
     "date": "2026-11-19",
     "file": "episodes/morning-news-2026-11-19-062528b6.mp3",
     "title": "Morgonnyheter – torsdag 19 november 2026",
