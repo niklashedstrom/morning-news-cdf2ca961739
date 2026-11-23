@@ -6,13 +6,47 @@
     <atom:link href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Kort morgonsändning varje vardag: de viktigaste nyheterna från Sverige och världen, plus tech.</description>
     <language>sv</language>
-    <lastBuildDate>Fri, 20 Nov 2026 06:02:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 06:03:22 +0000</lastBuildDate>
     <itunes:author>Claude</itunes:author>
     <itunes:image href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png"/>
     <image><url>https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png</url><title>Morgonnyheter för Niklas</title><link>https://niklashedstrom.github.io/morning-news-cdf2ca961739/</link></image>
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
+    <item>
+      <title>Morgonnyheter – måndag 23 november 2026</title>
+      <description>• S nytt bud till V – får snabbt nej
+• COP31 slutade utan klimatavtal
+• Minst sex döda i ryska angrepp mot Kievregionen
+• Ryskt fartyg skadat i misstänkt drönarattack i Libyen
+• Orange snövarning i norra Uppland
+• AI-oron fortsätter – kraftiga börsfall i Asien
+• Servertillverkare höjer priser med upp till 45 procent
+• Anthropic-matematiker: Riemannhypotesen bevisad med Claude
+• Amazon nära köp av Decart för 7,5 miljarder dollar
+• Tesla rullar ut FSD version 15
+• Sydkoreas utbildningsminister avgår efter AI-fusk
+• Signal blockerar skärmdumpar mot AI-agenter</description>
+      <content:encoded><![CDATA[<ul><li>S nytt bud till V – får snabbt nej</li><li>COP31 slutade utan klimatavtal</li><li>Minst sex döda i ryska angrepp mot Kievregionen</li><li>Ryskt fartyg skadat i misstänkt drönarattack i Libyen</li><li>Orange snövarning i norra Uppland</li><li>AI-oron fortsätter – kraftiga börsfall i Asien</li><li>Servertillverkare höjer priser med upp till 45 procent</li><li>Anthropic-matematiker: Riemannhypotesen bevisad med Claude</li><li>Amazon nära köp av Decart för 7,5 miljarder dollar</li><li>Tesla rullar ut FSD version 15</li><li>Sydkoreas utbildningsminister avgår efter AI-fusk</li><li>Signal blockerar skärmdumpar mot AI-agenter</li></ul>]]></content:encoded>
+      <itunes:summary>• S nytt bud till V – får snabbt nej
+• COP31 slutade utan klimatavtal
+• Minst sex döda i ryska angrepp mot Kievregionen
+• Ryskt fartyg skadat i misstänkt drönarattack i Libyen
+• Orange snövarning i norra Uppland
+• AI-oron fortsätter – kraftiga börsfall i Asien
+• Servertillverkare höjer priser med upp till 45 procent
+• Anthropic-matematiker: Riemannhypotesen bevisad med Claude
+• Amazon nära köp av Decart för 7,5 miljarder dollar
+• Tesla rullar ut FSD version 15
+• Sydkoreas utbildningsminister avgår efter AI-fusk
+• Signal blockerar skärmdumpar mot AI-agenter</itunes:summary>
+      <enclosure url="https://niklashedstrom.github.io/morning-news-cdf2ca961739/episodes/morning-news-2026-11-23-2ee460af.mp3" length="5717420" type="audio/mpeg"/>
+      <guid isPermaLink="false">morning-news-2026-11-23-2ee460af</guid>
+      <pubDate>Mon, 23 Nov 2026 07:00:00 +0100</pubDate>
+      <itunes:duration>00:07:56</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Morgonnyheter – fredag 20 november 2026</title>
       <description>• S totalpaket möter kritik från Centern

@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-11-23",
+    "file": "episodes/morning-news-2026-11-23-2ee460af.mp3",
+    "title": "Morgonnyheter – måndag 23 november 2026",
+    "headlines": [
+      "S nytt bud till V – får snabbt nej",
+      "COP31 slutade utan klimatavtal",
+      "Minst sex döda i ryska angrepp mot Kievregionen",
+      "Ryskt fartyg skadat i misstänkt drönarattack i Libyen",
+      "Orange snövarning i norra Uppland",
+      "AI-oron fortsätter – kraftiga börsfall i Asien",
+      "Servertillverkare höjer priser med upp till 45 procent",
+      "Anthropic-matematiker: Riemannhypotesen bevisad med Claude",
+      "Amazon nära köp av Decart för 7,5 miljarder dollar",
+      "Tesla rullar ut FSD version 15",
+      "Sydkoreas utbildningsminister avgår efter AI-fusk",
+      "Signal blockerar skärmdumpar mot AI-agenter"
+    ],
+    "duration": 476,
+    "size": 5717420,
+    "pub": "2026-11-23T07:00:00+01:00",
+    "guid": "morning-news-2026-11-23-2ee460af"
+  },
+  {
     "date": "2026-11-20",
     "file": "episodes/morning-news-2026-11-20-c1452768.mp3",
     "title": "Morgonnyheter – fredag 20 november 2026",
