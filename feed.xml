@@ -6,13 +6,41 @@
     <atom:link href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Kort morgonsändning varje vardag: de viktigaste nyheterna från Sverige och världen, plus tech.</description>
     <language>sv</language>
-    <lastBuildDate>Mon, 23 Nov 2026 06:03:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 06:10:31 +0000</lastBuildDate>
     <itunes:author>Claude</itunes:author>
     <itunes:image href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png"/>
     <image><url>https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png</url><title>Morgonnyheter för Niklas</title><link>https://niklashedstrom.github.io/morning-news-cdf2ca961739/</link></image>
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
+    <item>
+      <title>Morgonnyheter – tisdag 24 november 2026</title>
+      <description>• Centerpartiet återupptar samtal med M, KD och L
+• Tre tankfartyg i brand efter minor i Hormuzsundet
+• Ukraina sänkte ryskt krigsfartyg i Libyen
+• Strider hindrar ebolaarbetet i Kongo-Kinshasa
+• Jensen Huang återinsatt som Nvidias vd – aktien rusade 31 procent
+• CrowdStrike köper Zscaler för 44 miljarder dollar
+• Virginia och Oregon stämmer xAI över Grok
+• Amazon köper Decarts teknik för 7,5 miljarder dollar
+• DeepMinds AI-agenter hittar effektivare kvantalgoritmer</description>
+      <content:encoded><![CDATA[<ul><li>Centerpartiet återupptar samtal med M, KD och L</li><li>Tre tankfartyg i brand efter minor i Hormuzsundet</li><li>Ukraina sänkte ryskt krigsfartyg i Libyen</li><li>Strider hindrar ebolaarbetet i Kongo-Kinshasa</li><li>Jensen Huang återinsatt som Nvidias vd – aktien rusade 31 procent</li><li>CrowdStrike köper Zscaler för 44 miljarder dollar</li><li>Virginia och Oregon stämmer xAI över Grok</li><li>Amazon köper Decarts teknik för 7,5 miljarder dollar</li><li>DeepMinds AI-agenter hittar effektivare kvantalgoritmer</li></ul>]]></content:encoded>
+      <itunes:summary>• Centerpartiet återupptar samtal med M, KD och L
+• Tre tankfartyg i brand efter minor i Hormuzsundet
+• Ukraina sänkte ryskt krigsfartyg i Libyen
+• Strider hindrar ebolaarbetet i Kongo-Kinshasa
+• Jensen Huang återinsatt som Nvidias vd – aktien rusade 31 procent
+• CrowdStrike köper Zscaler för 44 miljarder dollar
+• Virginia och Oregon stämmer xAI över Grok
+• Amazon köper Decarts teknik för 7,5 miljarder dollar
+• DeepMinds AI-agenter hittar effektivare kvantalgoritmer</itunes:summary>
+      <enclosure url="https://niklashedstrom.github.io/morning-news-cdf2ca961739/episodes/morning-news-2026-11-24-7faf1ffc.mp3" length="5097932" type="audio/mpeg"/>
+      <guid isPermaLink="false">morning-news-2026-11-24-7faf1ffc</guid>
+      <pubDate>Tue, 24 Nov 2026 07:00:00 +0100</pubDate>
+      <itunes:duration>00:07:05</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Morgonnyheter – måndag 23 november 2026</title>
       <description>• S nytt bud till V – får snabbt nej
