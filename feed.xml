@@ -6,13 +6,43 @@
     <atom:link href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Kort morgonsändning varje vardag: de viktigaste nyheterna från Sverige och världen, plus tech.</description>
     <language>sv</language>
-    <lastBuildDate>Tue, 24 Nov 2026 06:10:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 06:08:19 +0000</lastBuildDate>
     <itunes:author>Claude</itunes:author>
     <itunes:image href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png"/>
     <image><url>https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png</url><title>Morgonnyheter för Niklas</title><link>https://niklashedstrom.github.io/morning-news-cdf2ca961739/</link></image>
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
+    <item>
+      <title>Morgonnyheter – onsdag 25 november 2026</title>
+      <description>• Kristersson prövas som statsminister på måndag – C splittrat
+• USA förbereder nya tullar mot Kina, EU och 14 andra
+• USA och Qatar kräver fri passage i Hormuzsundet
+• Dataintrång hos CIA och underrättelsedirektoratet
+• Läckta data: minst 490 000 ryska soldater döda
+• Huawei fällt i amerikansk domstol
+• Microsoft utlyser kodröd efter dygnslångt avbrott
+• Spotify nere i en timme
+• OpenAI betalar lokala hjälpare för att ta AI till småföretag
+• Nvidia: Blanche tyst om utredning, Huang till kongressen</description>
+      <content:encoded><![CDATA[<ul><li>Kristersson prövas som statsminister på måndag – C splittrat</li><li>USA förbereder nya tullar mot Kina, EU och 14 andra</li><li>USA och Qatar kräver fri passage i Hormuzsundet</li><li>Dataintrång hos CIA och underrättelsedirektoratet</li><li>Läckta data: minst 490 000 ryska soldater döda</li><li>Huawei fällt i amerikansk domstol</li><li>Microsoft utlyser kodröd efter dygnslångt avbrott</li><li>Spotify nere i en timme</li><li>OpenAI betalar lokala hjälpare för att ta AI till småföretag</li><li>Nvidia: Blanche tyst om utredning, Huang till kongressen</li></ul>]]></content:encoded>
+      <itunes:summary>• Kristersson prövas som statsminister på måndag – C splittrat
+• USA förbereder nya tullar mot Kina, EU och 14 andra
+• USA och Qatar kräver fri passage i Hormuzsundet
+• Dataintrång hos CIA och underrättelsedirektoratet
+• Läckta data: minst 490 000 ryska soldater döda
+• Huawei fällt i amerikansk domstol
+• Microsoft utlyser kodröd efter dygnslångt avbrott
+• Spotify nere i en timme
+• OpenAI betalar lokala hjälpare för att ta AI till småföretag
+• Nvidia: Blanche tyst om utredning, Huang till kongressen</itunes:summary>
+      <enclosure url="https://niklashedstrom.github.io/morning-news-cdf2ca961739/episodes/morning-news-2026-11-25-21ff1131.mp3" length="5825420" type="audio/mpeg"/>
+      <guid isPermaLink="false">morning-news-2026-11-25-21ff1131</guid>
+      <pubDate>Wed, 25 Nov 2026 07:00:00 +0100</pubDate>
+      <itunes:duration>00:08:05</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Morgonnyheter – tisdag 24 november 2026</title>
       <description>• Centerpartiet återupptar samtal med M, KD och L

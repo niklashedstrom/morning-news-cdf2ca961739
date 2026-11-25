@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-11-25",
+    "file": "episodes/morning-news-2026-11-25-21ff1131.mp3",
+    "title": "Morgonnyheter – onsdag 25 november 2026",
+    "headlines": [
+      "Kristersson prövas som statsminister på måndag – C splittrat",
+      "USA förbereder nya tullar mot Kina, EU och 14 andra",
+      "USA och Qatar kräver fri passage i Hormuzsundet",
+      "Dataintrång hos CIA och underrättelsedirektoratet",
+      "Läckta data: minst 490 000 ryska soldater döda",
+      "Huawei fällt i amerikansk domstol",
+      "Microsoft utlyser kodröd efter dygnslångt avbrott",
+      "Spotify nere i en timme",
+      "OpenAI betalar lokala hjälpare för att ta AI till småföretag",
+      "Nvidia: Blanche tyst om utredning, Huang till kongressen"
+    ],
+    "duration": 485,
+    "size": 5825420,
+    "pub": "2026-11-25T07:00:00+01:00",
+    "guid": "morning-news-2026-11-25-21ff1131"
+  },
+  {
     "date": "2026-11-24",
     "file": "episodes/morning-news-2026-11-24-7faf1ffc.mp3",
     "title": "Morgonnyheter – tisdag 24 november 2026",
