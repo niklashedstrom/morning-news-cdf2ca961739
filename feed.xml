@@ -6,13 +6,43 @@
     <atom:link href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Kort morgonsändning varje vardag: de viktigaste nyheterna från Sverige och världen, plus tech.</description>
     <language>sv</language>
-    <lastBuildDate>Wed, 25 Nov 2026 06:08:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 06:04:50 +0000</lastBuildDate>
     <itunes:author>Claude</itunes:author>
     <itunes:image href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png"/>
     <image><url>https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png</url><title>Morgonnyheter för Niklas</title><link>https://niklashedstrom.github.io/morning-news-cdf2ca961739/</link></image>
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
+    <item>
+      <title>Morgonnyheter – torsdag 26 november 2026</title>
+      <description>• USA föreslår nya tullar mot EU, Kina och tolv andra
+• Migrationsverket pausar tonårsutvisningarna
+• Regeringsfrågan: M:s bud till C får svalt mottagande inför måndagens omröstning
+• Domare föreslår att mutåtalet mot Netanyahu läggs ned
+• Kim Jong Un vill placera ut fler taktiska kärnvapen
+• Minst 31 döda i tankbilsbrand i Kairo
+• SpaceX får tillstånd för en miljon datacentersatelliter
+• EU föreslår teknikfond på 50 miljarder euro och ny kvantlag
+• Tidal förbjuder AI-musik och tar bort 27 miljoner låtar
+• OpenAI: GPT-6 kan designa fungerande proteiner</description>
+      <content:encoded><![CDATA[<ul><li>USA föreslår nya tullar mot EU, Kina och tolv andra</li><li>Migrationsverket pausar tonårsutvisningarna</li><li>Regeringsfrågan: M:s bud till C får svalt mottagande inför måndagens omröstning</li><li>Domare föreslår att mutåtalet mot Netanyahu läggs ned</li><li>Kim Jong Un vill placera ut fler taktiska kärnvapen</li><li>Minst 31 döda i tankbilsbrand i Kairo</li><li>SpaceX får tillstånd för en miljon datacentersatelliter</li><li>EU föreslår teknikfond på 50 miljarder euro och ny kvantlag</li><li>Tidal förbjuder AI-musik och tar bort 27 miljoner låtar</li><li>OpenAI: GPT-6 kan designa fungerande proteiner</li></ul>]]></content:encoded>
+      <itunes:summary>• USA föreslår nya tullar mot EU, Kina och tolv andra
+• Migrationsverket pausar tonårsutvisningarna
+• Regeringsfrågan: M:s bud till C får svalt mottagande inför måndagens omröstning
+• Domare föreslår att mutåtalet mot Netanyahu läggs ned
+• Kim Jong Un vill placera ut fler taktiska kärnvapen
+• Minst 31 döda i tankbilsbrand i Kairo
+• SpaceX får tillstånd för en miljon datacentersatelliter
+• EU föreslår teknikfond på 50 miljarder euro och ny kvantlag
+• Tidal förbjuder AI-musik och tar bort 27 miljoner låtar
+• OpenAI: GPT-6 kan designa fungerande proteiner</itunes:summary>
+      <enclosure url="https://niklashedstrom.github.io/morning-news-cdf2ca961739/episodes/morning-news-2026-11-26-b5a8235f.mp3" length="5753420" type="audio/mpeg"/>
+      <guid isPermaLink="false">morning-news-2026-11-26-b5a8235f</guid>
+      <pubDate>Thu, 26 Nov 2026 07:00:00 +0100</pubDate>
+      <itunes:duration>00:07:59</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Morgonnyheter – onsdag 25 november 2026</title>
       <description>• Kristersson prövas som statsminister på måndag – C splittrat
