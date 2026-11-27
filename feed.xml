@@ -6,13 +6,41 @@
     <atom:link href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Kort morgonsändning varje vardag: de viktigaste nyheterna från Sverige och världen, plus tech.</description>
     <language>sv</language>
-    <lastBuildDate>Thu, 26 Nov 2026 06:04:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 06:06:29 +0000</lastBuildDate>
     <itunes:author>Claude</itunes:author>
     <itunes:image href="https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png"/>
     <image><url>https://niklashedstrom.github.io/morning-news-cdf2ca961739/cover.png</url><title>Morgonnyheter för Niklas</title><link>https://niklashedstrom.github.io/morning-news-cdf2ca961739/</link></image>
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
+    <item>
+      <title>Morgonnyheter – fredag 27 november 2026</title>
+      <description>• Centerledningen säger ja till Kristersson – riksdagen röstar på måndag
+• Elpriset rusar efter kärnkraftsproblem och svaga vindar
+• EU-toppmöte utan budgetuppgörelse och utan Ukrainalån
+• Trump uppmanar Putin att dra tillbaka aggressionen i Europa
+• Två italienare dödade i drönarattack mot Kuwait
+• SpaceX får tillstånd för en miljon AI-satelliter
+• Nvidia stoppar serverleveranser till fyra länder i Sydostasien
+• iPhone toppar trots svag Singles' Day i Kina
+• Black Friday drar igång</description>
+      <content:encoded><![CDATA[<ul><li>Centerledningen säger ja till Kristersson – riksdagen röstar på måndag</li><li>Elpriset rusar efter kärnkraftsproblem och svaga vindar</li><li>EU-toppmöte utan budgetuppgörelse och utan Ukrainalån</li><li>Trump uppmanar Putin att dra tillbaka aggressionen i Europa</li><li>Två italienare dödade i drönarattack mot Kuwait</li><li>SpaceX får tillstånd för en miljon AI-satelliter</li><li>Nvidia stoppar serverleveranser till fyra länder i Sydostasien</li><li>iPhone toppar trots svag Singles' Day i Kina</li><li>Black Friday drar igång</li></ul>]]></content:encoded>
+      <itunes:summary>• Centerledningen säger ja till Kristersson – riksdagen röstar på måndag
+• Elpriset rusar efter kärnkraftsproblem och svaga vindar
+• EU-toppmöte utan budgetuppgörelse och utan Ukrainalån
+• Trump uppmanar Putin att dra tillbaka aggressionen i Europa
+• Två italienare dödade i drönarattack mot Kuwait
+• SpaceX får tillstånd för en miljon AI-satelliter
+• Nvidia stoppar serverleveranser till fyra länder i Sydostasien
+• iPhone toppar trots svag Singles' Day i Kina
+• Black Friday drar igång</itunes:summary>
+      <enclosure url="https://niklashedstrom.github.io/morning-news-cdf2ca961739/episodes/morning-news-2026-11-27-68402145.mp3" length="5747084" type="audio/mpeg"/>
+      <guid isPermaLink="false">morning-news-2026-11-27-68402145</guid>
+      <pubDate>Fri, 27 Nov 2026 07:00:00 +0100</pubDate>
+      <itunes:duration>00:07:59</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Morgonnyheter – torsdag 26 november 2026</title>
       <description>• USA föreslår nya tullar mot EU, Kina och tolv andra

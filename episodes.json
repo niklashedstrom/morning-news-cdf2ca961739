@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-27",
+    "file": "episodes/morning-news-2026-11-27-68402145.mp3",
+    "title": "Morgonnyheter – fredag 27 november 2026",
+    "headlines": [
+      "Centerledningen säger ja till Kristersson – riksdagen röstar på måndag",
+      "Elpriset rusar efter kärnkraftsproblem och svaga vindar",
+      "EU-toppmöte utan budgetuppgörelse och utan Ukrainalån",
+      "Trump uppmanar Putin att dra tillbaka aggressionen i Europa",
+      "Två italienare dödade i drönarattack mot Kuwait",
+      "SpaceX får tillstånd för en miljon AI-satelliter",
+      "Nvidia stoppar serverleveranser till fyra länder i Sydostasien",
+      "iPhone toppar trots svag Singles' Day i Kina",
+      "Black Friday drar igång"
+    ],
+    "duration": 479,
+    "size": 5747084,
+    "pub": "2026-11-27T07:00:00+01:00",
+    "guid": "morning-news-2026-11-27-68402145"
+  },
+  {
     "date": "2026-11-26",
     "file": "episodes/morning-news-2026-11-26-b5a8235f.mp3",
     "title": "Morgonnyheter – torsdag 26 november 2026",
